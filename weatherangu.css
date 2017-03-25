@@ -1,0 +1,111 @@
+/*#searchbox{*/
+/*height: 300px;*/
+/*width:3840px;*/
+/*font-size: 250px;*/
+/*letter-spacing: 50px;*/
+/*border-style: none;*/
+	/**/
+/*}*/
+/*#posterdiv{*/
+/*margin-top: 0%;*/
+/*height: 1500px;*/
+/*width:3840px;*/
+/*border: 5px solid blue;*/
+/*border-radius: 15px;*/
+/*padding-left: 150px;*/
+/*font-size: 150px;*/
+/*}*/
+
+#content{
+
+    width: 700px;
+    height:350px;
+    border: solid red 5px;
+}
+
+#w_pic{
+
+    width: 700px;
+    height:300px;
+}
+#weather_data{
+    width: 700px;
+    height:300px;
+    font-size: 10px;
+    position: absolute;
+    top:0%;
+    float: right;
+}
+
+#search_box {
+
+
+    height: 40px;
+    margin-left:2.4%;
+    width: 650px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    border-style: none;
+    padding-left: 15px;
+}
+
+h1{
+    float: left;
+    color: #cddc39;
+
+}
+.zero{
+
+    position: relative;
+    top: 168px;
+    left: 20px;
+    font-size: 15px;
+}
+.one{
+
+    position: relative;
+    top: 157px;
+    left: 51px;
+    font-size: 15px;
+
+}
+.two{
+
+    position: relative;
+    top: 147px;
+    left: 88px;
+    font-size: 15px;
+
+}
+.three{
+
+    position: relative;
+    top: 133px;
+    left: 116px;
+    font-size: 15px;
+
+}
+.four{
+
+    position: relative;
+    top: 127px;
+    left: 149px;
+    font-size: 15px;
+
+}
+.five{
+
+    position: relative;
+    top: 114px;
+    left: 180px;
+    font-size: 15px;
+
+}
+.six{
+
+    position: relative;
+    top: 103px;
+    left: 209px;
+    font-size: 15px;
+
+}

@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="weatherangu.css">
+  <meta charset="utf-8">
+  <title>Angular JS</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+
+</head>
+<body ng-app="myapp">
+
+  
+  <div id="content" ng-controller="DemoCtrl as ctrl">
+
+    <img id="w_pic" src="7day.png">
+
+
+   <!--<form action="" method="get" ng-submit="submitform()">- -->
+    <!--<input  type="text" ng-model="$ctrl.request.params.q" id="search_box" placeholder="Enter City Name Here..">-->
+     <!--<input type="submit" style="display:none"/>-->
+  <!--</form>-->
+
+
+    <input  type="text"   ng-model="request.params.q" id="search_box" placeholder="Enter City Name Here..">
+
+
+    <div id="weather_data">
+
+       <h1 class="zero">{{ ctrl.data.list[0].temp.max| json }}</h1><br>
+       <h1 class="zero">{{ ctrl.data.list[0].temp.min| json }}</h1>
+
+      <h1 class="one">{{ ctrl.data.list[1].temp.max| json }}</h1><br>
+      <h1 class="one">{{ ctrl.data.list[1].temp.min| json }}</h1>
+
+      <h1 class="two">{{ ctrl.data.list[2].temp.max| json }}</h1><br>
+      <h1 class="two">{{ ctrl.data.list[2].temp.min| json }}</h1>
+
+      <h1 class="three">{{ ctrl.data.list[3].temp.max| json }}</h1><br>
+      <h1 class="three">{{ ctrl.data.list[3].temp.min| json }}</h1>
+
+      <h1 class="four">{{ ctrl.data.list[4].temp.max| json }}</h1><br>
+      <h1 class="four">{{ ctrl.data.list[4].temp.min| json }}</h1>
+
+      <h1 class="five">{{ ctrl.data.list[5].temp.max| json }}</h1><br>
+      <h1 class="five">{{ ctrl.data.list[5].temp.min| json }}</h1>
+
+      <h1 class="six">{{ ctrl.data.list[6].temp.max| json }}</h1><br>
+      <h1 class="six">{{ ctrl.data.list[6].temp.min| json }}</h1>
+
+     </div>
+  </div>
+
+  <script src = "weatherangu.js"></script>
+
+</body>
+</html>
